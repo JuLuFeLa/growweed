@@ -1,0 +1,348 @@
+@font-face {
+
+    font-family: my01Font;
+    src: url("font/p_Cristone.ttf");
+}
+
+@font-face {
+
+    font-family: titulo_a;
+    src: url("font/SundayBestttf.ttf");
+}
+
+
+:root {
+    
+    --fonte-padrao:Arial,Verdana, Tahoma, sans-serif Helvetica, sans-serif, cursive;
+    --fonte-h1: 'titulo_a', cursive;
+    --fonte-h2: 'titulo_a', cursive;
+    --fonte-h3: 'titulo_a', cursive;
+    --fonte-h4: 'titulo_a', cursive;
+}
+
+
+
+
+html, body {
+
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+
+/*-------------------------------------INICIO BARRA FIXA DE  NAVEGAÇÂO----------------------------------------*/
+
+
+.logo_nav_new  {
+    
+margin-left: 45%;
+
+}
+
+
+header {
+    
+    display: flex;
+    height: 13vh;
+    width: 1343px;
+    text-align: center;
+    border-radius: 3px 3px 3px 3px;  
+    box-shadow:  -0.3em 0 0.8em#30D650, -0.3em 0 0.8em#30D650;
+    background: #30D981;
+     /*background-image: linear-gradient(to right,#30D981, yellow,red);*/
+    margin: auto;   
+
+}
+
+
+.container_nav {
+
+    height: 80px;
+    width: 1343px;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "h1 h2";
+    margin: auto;   
+
+
+}
+
+
+ .h1 .menu_nav_list {
+
+    font-family: var(--fonte-h1);
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left:150px ;
+    grid-area: h1;
+}
+
+
+.h1 .menu_nav_list li {
+    
+    display: inline;
+    letter-spacing: 3px;
+    margin-right: 95px;
+    grid-area: h1;
+
+}
+
+.h2 .img_logo_gmail {
+
+    display: inline;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 53px;
+    height: 45px;
+  
+}
+
+
+.h2 .img_logo_insta {
+
+    display: inline;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+ 
+}
+
+
+.h2 .img_logo_whats {
+
+    display: inline;
+    margin-top: 15px;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+
+}
+
+
+
+a {
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+a:hover {
+
+
+    color: green;
+    opacity: 0.6;
+}
+
+a:active {
+
+    color: yellow;
+}
+
+
+
+/*-------------------------------------FIM da BARRA FIXA DE  NAVEGAÇÂO----------------------------------------*/
+
+
+
+
+
+hr {
+    height: 5px;
+     background-image: linear-gradient(to right,#30D981, yellow,rgb(211, 97, 97));
+     border: none;
+    margin-top: 0px;
+    
+}
+
+
+/*---------------------------------------------------------------------------------------------------------------*/
+
+
+h2 {
+
+    font-family: titulo_a;
+    font-size: 23px;
+}
+
+h3 {
+
+    font-family: titulo_a;
+    font-size: 16px;
+}
+
+
+main {
+    
+    height: auto;
+    width: auto;
+    text-align: center;
+    background-color:#ffff;
+
+}
+
+
+
+
+main h1 {
+
+    font-size: 35px;
+    text-align: center;
+    font-family: var(--fonte-h1);
+}
+
+
+
+main p {
+
+    height: auto; 
+    max-width:900px;
+    min-width:200px;
+    margin: auto;   
+    padding: 1px;
+    font-size: 17px;
+    font-family: var(--fonte-padrao);
+    text-align: justify;
+    line-height: 1.75em;
+
+}
+
+
+
+/*------------------------------- INICIO DO FOOTER---------------------------------------------*/
+
+
+footer{
+    
+    border-radius: 2px;
+
+}
+
+.container_b { /*GRID PAI DO FOOTER*/
+    
+    display: grid;
+    grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "f1 f2 f3 f4";
+    text-align: center;
+    background: #30D981;
+     /*background-image: linear-gradient(to right,#30D981, yellow,red);*/
+
+}
+
+.f1 { /*GRID FILHO DO CONTAINER B*/
+
+    text-align: center;
+    grid-area: f1;
+
+}
+
+.f1 h4 {
+
+    margin: 0px 0px 0px 0px;
+}
+
+.f1 p {  /*GRID FILHO DO CONTAINER B TITULO */
+
+    font-size: 11px;
+    margin-top: 20px ;
+}
+
+.f1 div ul li  {
+
+    list-style: none;
+    margin-top: 0px;
+    margin-right: 50px;
+    font-size: 12px;
+
+}
+
+
+
+.f2 { /*GRID FILHO DO CONTAINER B*/
+
+    text-align: center;
+    grid-area: f2;
+
+}
+
+.f2 p {
+
+    font-size: 11px;
+    margin-top: 20px ;
+
+}
+
+.f2 address {
+
+    font-size: 11px;
+
+}
+
+.f2 h4 {
+
+    margin: 0px 0px 0px 0px;
+}
+
+.f3 p {
+
+    font-size: 11px;
+    margin-top: 20px ;
+
+}
+
+.f3 { /*GRID FILHO DO CONTAINER B*/
+
+
+    grid-area: f3;
+
+}
+
+
+.f3 h4 { 
+
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+.f4 { /*GRID FILHO DO CONTAINER B*/
+
+
+  
+    grid-area: f4;
+
+}
+
+
+.f4 h4 { 
+
+    margin: 0px 0px 0px 0px;
+
+}
+
+
+.f4 div ul li  {
+
+    list-style: none;
+    margin-right: 50px;
+    font-size: 12px;
+
+}
+
+
+/*------------------------------- FIM DO FOOTER---------------------------------------------*/
+
+.hr_footer{
+
+    height: 1px;
+    background-color:#ffff;
+    margin-top: 0px;
+}
+    /*-----------------------------------JANELA SOBRE NOS FIM------------------------------------------------------*/
