@@ -46,6 +46,17 @@ html, body {
     }
     
     
+#imagem1{
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#imagem1:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+    
     header {
     
         display: flex;
@@ -190,6 +201,12 @@ main p {
     font-size: 17px;
     font-family:var(--fonte-padrao);
     text-align: justify;
+}
+
+main strong {
+     
+    color: #26AD68;
+    font-weight: bold;
 }
 
 

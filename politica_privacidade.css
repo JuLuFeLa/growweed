@@ -44,6 +44,16 @@ html, body {
 
 }
 
+#imagem1{
+    transition: all 1s;
+    cursor: pointer;
+}
+
+#imagem1:hover{
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
 
 header {
     
