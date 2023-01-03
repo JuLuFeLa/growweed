@@ -37,7 +37,8 @@ html, body {
 
 .logo_nav_new  {
     
-margin-left: 45%;
+    display: flex;
+    justify-content: center;
 
 }
 
