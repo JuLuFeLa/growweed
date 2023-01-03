@@ -29,6 +29,8 @@ html, body {
     padding: 0;
     align-items: center;
     overflow-x: hidden;
+    background-color:rgb(255, 236, 236);
+
 }
 
 
@@ -177,7 +179,7 @@ main {
     height: auto;
     width: auto;
     text-align: center;
-    background-color:#ffff;
+    background-color:rgb(255, 236, 236);
 
 }
 
@@ -199,7 +201,7 @@ main p {
     max-width:850px;
     min-width:200px;
     margin: auto;   
-    padding: 1px;
+    padding: 5px;
     font-size: 17px;
     font-family: var(--fonte-padrao);
     text-align: justify;
@@ -358,3 +360,15 @@ footer{
     margin-top: 0px;
 }
     /*-----------------------------------JANELA SOBRE NOS FIM------------------------------------------------------*/
+
+    
+@media (max-width: 699px) {
+
+    main {
+        height: auto;
+        width: auto;
+        object-position: center;
+        padding: 15px;
+
+
+}

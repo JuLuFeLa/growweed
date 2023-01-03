@@ -28,6 +28,8 @@ html, body {
     padding: 0;
     justify-content: center;
     overflow-x: hidden;
+    background-color:rgb(255, 236, 236);
+
 
 
      
@@ -39,8 +41,10 @@ html, body {
 
 .logo_nav_new  {
     
-    margin-left: 45%;
+    display: flex;
+    justify-content: center;
     
+
     }
     
     
@@ -199,6 +203,7 @@ h1 {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
     text-align: center;
+    border-radius: 15px;
 
 }
 
@@ -362,11 +367,10 @@ footer{
     /*-----------------------------------JANELA SOBRE NOS FIM------------------------------------------------------*/
 
 
-    @media only screen and (max-width: 767px) {
        
 
     
-    @media only screen and (max-width: 699px) {
+    @media only screen and (max-width: 899px) {
 
 
 
