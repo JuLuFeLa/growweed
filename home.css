@@ -245,7 +245,7 @@ main strong {
 .slideshow-container {
   max-width: 850px;
   min-width: 399px;
-  height: auto;
+  height: 300px;
   position: relative;
   margin: auto;
   
