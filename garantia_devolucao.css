@@ -237,7 +237,7 @@ footer{
 
 }
 
-.container_b { /*GRID PAI DO FOOTER*/
+footer .container_b { /*GRID PAI DO FOOTER*/
     
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
