@@ -168,7 +168,7 @@ header {
         height: 5px;
         background-image: linear-gradient(to right,#30D981, yellow,rgb(211, 97, 97));
         border: none;
-        width: 1030px;
+        max-width: 1030px;
         margin-top: 0px;
         
     }
@@ -189,15 +189,12 @@ main {
 }
 
 
-
-
 main h1 {
 
     font-size: 35px;
     text-align: center;
     font-family: var(--fonte-h1);
 }
-
 
 
 main p {
@@ -214,11 +211,13 @@ main p {
 
 }
 
+
 main strong {
      
     color: #26AD68;
     font-weight: bold;
 }
+
 
 .icons {
 
@@ -234,7 +233,7 @@ main strong {
 /* Hide the images by default */
 
 .mySlides {
-    
+
   display: none;
   
 }
@@ -330,25 +329,24 @@ main strong {
 
 
 
+
 /*------------------------------- INICIO DO FOOTER---------------------------------------------*/
 
 
 footer{
-
+    
     border-radius: 2px;
 
 }
 
-   .container_b { /*GRID PAI DO FOOTER*/
-
-   
+footer .container_b { /*GRID PAI DO FOOTER*/
+    
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
     grid-template-rows: auto;
     grid-template-areas: "f1 f2 f3 f4";
     text-align: center;
     background: #30D981;
-
      /*background-image: linear-gradient(to right,#30D981, yellow,red);*/
 
 }
@@ -463,8 +461,6 @@ footer{
     margin-top: 0px;
 }
     /*-----------------------------------JANELA SOBRE NOS FIM------------------------------------------------------*/
-
-
 
 
 

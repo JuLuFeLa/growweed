@@ -21,6 +21,8 @@
 }
 
 
+
+
 html, body {
 
     margin: 0;
@@ -28,7 +30,6 @@ html, body {
     align-items: center;
     overflow-x: hidden;
     background-color:rgb(255, 236, 236);
-
 
 }
 
@@ -42,6 +43,7 @@ html, body {
     justify-content: center;
 
 }
+
 
 #imagem1{
     transition: all 1s;
@@ -169,7 +171,6 @@ hr {
     height: 5px;
      background-image: linear-gradient(to right,#30D981, yellow,rgb(211, 97, 97));
      border: none;
-     width: 1030px;
     margin-top: 0px;
     
 }
@@ -231,12 +232,12 @@ main p {
 
 
 footer{
-
+    
     border-radius: 2px;
 
 }
 
-.container_b { /*GRID PAI DO FOOTER*/
+footer .container_b { /*GRID PAI DO FOOTER*/
     
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
@@ -323,17 +324,22 @@ footer{
 }
 
 
+
 .f4 { /*GRID FILHO DO CONTAINER B*/
 
+
+  
     grid-area: f4;
 
 }
+
 
 .f4 h4 { 
 
     margin: 0px 0px 0px 0px;
 
 }
+
 
 .f4 div ul li  {
 
@@ -362,5 +368,6 @@ footer{
         width: auto;
         object-position: center;
         padding: 15px;
+
 
 }

@@ -44,6 +44,7 @@ html, body {
 
 }
 
+
 #imagem1{
     transition: all 1s;
     cursor: pointer;
@@ -170,7 +171,6 @@ hr {
     height: 5px;
      background-image: linear-gradient(to right,#30D981, yellow,rgb(211, 97, 97));
      border: none;
-     width: 1030px;
     margin-top: 0px;
     
 }
@@ -192,13 +192,11 @@ h3 {
 }
 
 
-
 main {
     
     height: auto;
     width: auto;
     text-align: center;
-    background-color:#ffff;
 
 }
 
@@ -228,14 +226,6 @@ main p {
 
 }
 
-    ul {
-
-    height: auto;
-    width: auto;
-    display: inline;
-    margin: 0 0 0 15px;  
-    list-style: none;
-}
 
 
 /*------------------------------- INICIO DO FOOTER---------------------------------------------*/
@@ -247,7 +237,7 @@ footer{
 
 }
 
-.container_b { /*GRID PAI DO FOOTER*/
+footer .container_b { /*GRID PAI DO FOOTER*/
     
     display: grid;
     grid-template-columns: 0.5fr 1.5fr 1fr 1fr;
@@ -285,7 +275,6 @@ footer{
     font-size: 12px;
 
 }
-
 
 
 
